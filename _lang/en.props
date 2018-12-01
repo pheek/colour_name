@@ -1,0 +1,127 @@
+###################### ROOT ######################
+# Directory / 
+_DIR_/=Colornames
+_FILE_/index=Colornames
+_FILE_/links=Links
+_FILE_/motivation=Motivation
+
+
+########################  all pages #######################
+red=red
+green=green
+blue=blue
+
+
+######################### Statistik #######################
+# ROOT / statistik
+_DIR_/statistik/=Statistics
+_FILE_/statistik/index=Statistics main page
+_FILE_/statistik/numbers=Numbers about nominations and colornames
+_FILE_/statistik/top20=Top 20
+_DIR_/statistik/nachName/=By name
+_FILE_/statistik/nachName/index=Statistic by colorname
+_DIR_/statistik/nachFarbe/=By RGB
+_FILE_/statistik/nachFarbe/index=Statistic by RGB-Value
+
+statistik.intro.desc=Here are some statistics about colors. More will come, as soon as you ask for more. 
+statistik.intro.desc.rfc=Interested in specific evaluations? Do not hesitate to <a href="../kontakt">contact</a> me.
+
+statistik.stat.numbers=Numbers
+statistik.stat.numbers.desc=Statistiscal overview.
+statistik.totNumberOfNominations=Total number of (english) nominations
+statistik.totNumberOfColourNames=Total number of different (english) colour names
+
+statistik.stat.top20=Top 20
+statistik.stat.top20.desc=The twenty names that appear mostly.
+
+statistik.stat.average.overview=Overview
+statistik.stat.average.title=Average to the following name
+statistik.stat.average.quest=Ask for average
+statistik.stat.average.all=All
+statistik.stat.average.none.avail=No values available.
+
+statistik.stat.average.rgb.desc=Color values
+statistik.stat.average.rgb.proc.title=Red-Green-Blue Percentages
+statistik.stat.average.rgb.hsv.h.title=Hue on the color circle (0⁰&#160;=&#160;red, 120⁰&#160;=&#160;green, 240⁰&#160;=&#160;blue)
+statistik.stretched=Stretched
+
+statistik.stat.average.css.title=CSS colordescription (00 .. FF)
+statistik.stat.average.java.title=Java color definition (0 .. 255)
+
+statistik.nominations=Nominations
+statistik.nomination=Nomination
+statistik.similarColours=Similar Colours
+statistik.similarColours.desc=The following colors are similar in hue, saturation or brightness.
+statistik.colourAverage=Average
+statistik.female=Female
+statistik.male=Male
+
+statistik.stat.byName=Statistics by Name
+statistik.stat.byName.desc=Which Color belongs to a given Name.
+statistik.stat.byName.tineye.images=Images in this color
+statistik.stat.byname.tineye.TINEYE=Photos on Flickr (by TinEye Labs)
+statistik.stat.byColour=Statistics by Color
+statistik.stat.byColour.desc=Which names are near a given RGB-value.
+statistik.stat.byColour.quest=Start Quest
+
+######################### Kontakt #########################
+# ROOT / kontakt
+_DIR_/kontakt/=Contact
+_FILE_/kontakt/index=Contact
+
+kontakt.link.name=Contact
+kontakt.link.anregung=stimulation
+
+kontakt.name    = "Your name"
+kontakt.email   = "Your email address *"
+kontakt.subject = "Subject +"
+kontakt.message = "Message +"
+kontakt.submit  = "Submit Message"
+kontakt.backMsg = "Do you whish a copy of this message to your mailbox?"
+kontakt.intro   = "Please fill in a valid email address and a subject or a message."
+  
+kontakt.err.msg.1=Please enter valid email address and a title (subject) or some text (message)!
+kontakt.thanks=Many Thanks
+kontakt.thanks.desc=Your message was transmitted to <tt>www.colour.name</tt>.
+
+
+######################### Nominationen #####################
+# ROOT/nominate
+_DIR_/nominate/=Nomination
+_FILE_/nominate/index=Nomination
+
+nominate.descLine1=Main purpose of this <i>training</i> is to define the colour below <b>precise</b>.
+nominate.descLine2=Please hold your eyes vertically to the screen.
+nominate.nameThisColour=Name the following colour
+
+nominate.dropdown.pleaseselect=Please select
+nominate.nominations=Nominations
+nominate.nomination=Nomination
+nominate.retina=Retina
+nominate.medium=Medium
+nominate.tipp=tipp
+
+nominate.form.your.nomination=Colorname
+nominate.form.submit=OK
+nominate.form.different=Zeige mir eine andere Farbe
+
+submitted.your=Your
+submitted.nextButton=Next Colour
+
+######################### About #####################
+_DIR_/disc/=Disclaimer
+_FILE_/disc/index=Disclaimer
+_FILE_/disc/ein=Invitation
+
+####################### Beyond (Hintergründe) ###############
+_DIR_/beyond/=Beyond
+_FILE_/beyond/index=Infos and Abouts
+_FILE_/beyond/motivation=Motivation
+_FILE_/beyond/wiegeht=How does «colour.name» work?
+_FILE_/beyond/translate=Translations
+_FILE_/beyond/gpl=License
+_FILE_/beyond/ein=Be part of it
+_FILE_/beyond/disc=Disclaimer
+
+####################### TEMP ###########################
+download.colour.name.src.disc=Get source from here (before it comes to GITHUB):

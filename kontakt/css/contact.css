@@ -1,0 +1,31 @@
+/* Colors for Labels */
+.entry_ok {
+  color : #0A0;
+}
+.entry_entering {
+  color : #830;
+}
+.entry_illegal {
+  color : #F50;
+}
+.entry_empty {
+  color : #058;
+}
+
+input.button_active {
+  border: thin #333333 solid;
+  background-color: #abc;
+  color: #125;
+}
+
+input.button_active:hover {
+  border: thin #888 solid;
+  background-color: #125;
+  color: #fff;
+}
+
+input.button_inactive {
+  border: thin #aaa solid;
+  background-color: #bbb;
+  color: #666;
+}

@@ -1,0 +1,60 @@
+h1 {
+  color : #555;
+  text-shadow: #333 3px 3px 5px;
+}
+
+h2 { 
+  color : #555;
+}
+
+.rahmen_lt { 
+  background-color: #ccc;
+  background-image: none;
+}
+.rahmen_tt { 
+  background-color: #ccc;
+  background-image: none;
+
+}
+.rahmen_rt { 
+  background-color: #888;
+  background-image: none;
+
+}
+.rahmen_ll { 
+  background-color: #888;
+  background-image: none;
+  
+}
+.rahmen_rr { 
+  background-color: #ccc;
+  background-image: none;
+  
+}
+.rahmen_rb { 
+  background-color: #888;
+  background-image: none;
+ 
+}
+.rahmen_bb { 
+  background-color: #ccc;
+  background-image: none;
+ 
+}
+.rahmen_lb { 
+  background-color: #444;
+  background-image: none; 
+}
+
+.logo {
+  background-image: url("../img/logo/logogrey.png");
+}
+
+
+a:link, a:active, a:visited{ 
+  color: #777;
+}
+
+hr { 
+  color: #ddd;
+ }

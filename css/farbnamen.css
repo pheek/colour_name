@@ -1,0 +1,112 @@
+html,body{
+  margin           :  0px;
+  padding          :  0px;
+  height           : 100%;
+  border           : none;
+  background-color : #fff;
+}
+   
+body {
+  background-color : white; 
+  padding          :   0px;
+  font-family      : helvetica, Arial, sans-serif, Andale Mono, Verdana;
+}
+
+hr {
+  background-color : #888;
+  border-width     :  1pt;
+  color            : #8cf;
+  border-style     : solid;
+}
+
+a:link, a:visited, a:active {
+  color            : #55a;
+  font-weight      : bold;
+  text-decoration  : none;
+}
+
+a:hover {
+  color            : #fff;
+  background       : #7f7f7f;
+}
+
+img {
+  background       : #fff;
+  margin           : 2px 8px;
+}
+
+a img, img a {
+  margin           :    0 0;
+  background       : #fff;
+}
+
+h2, h3 {
+  color:        black;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+.rahmenbreite {
+  width            : 18px;
+  margin           :  0px;
+  padding          :  0px;
+}
+
+.rahmenhoehe {
+  height           : 18px;
+  margin           :  0px;
+  padding          :  0px;
+}
+
+.lang_selector {
+    font-size      : 72%;
+}
+
+.colorbox { 
+  border-style     : solid;
+  border-color     :  gray;
+  height           :   3cm;
+  width            :   3cm;
+  background-color :  gray;
+}
+
+/* to have the text centered in the bottom */
+.rahmen_bb { 
+  text-align       : center;
+}
+
+.logo { 
+  width            : 256px;
+  height           :  51px;
+  float            : right;
+}
+
+
+.nextButton {
+    background-color: silver;
+    font-weight: bold;
+    font-size:  150%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 4px;
+}
+
+/* Tables statistik */
+.statOverview  td {
+ padding-left:  10px;
+ padding-right: 10px;
+ padding-top:    4px;
+ background-color: #ddf;
+}
+.statOverview tr {
+  vertical-align: top;
+}
+.statOverview img {
+    border-style: solid;
+    border-width:   2px;
+    border-color:  #88A;
+    padding: 2px;
+}
+

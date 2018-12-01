@@ -1,0 +1,128 @@
+###################### ROOT ######################
+# Directory / 
+_DIR_/=Noms de couleurs
+_FILE_/index=Noms de couleurs
+_FILE_/links=Liens
+_FILE_/motivation=Motivation
+
+
+########################  all pages #######################
+red=rouge
+green=vert
+blue=bleu
+
+
+######################### Statistik #######################
+# ROOT/statistik
+_DIR_/statistik/=Statistiques
+_FILE_/statistik/index=Statistiques sites principaug
+_FILE_/statistik/numbers=Noms de couleurs par nombers
+_FILE_/statistik/top20=Top 20
+_DIR_/statistik/nachName/=par nom
+_FILE_/statistik/nachName/index=statistique par nom de la couleur
+_DIR_/statistik/nachFarbe/=par couleur
+_FILE_/statistik/nachFarbe/index=Statistique par couleur
+
+statistik.intro.desc=Vous trouvez ici quelques statistiques sur les couleurs et leus noms. D'autres viendrons si vous le souhaitez.
+statistik.intro.desc.rfc=Au lieu d'attendre vous pouvez me demander directement d'installer plus de statistiques: <a href="../kontakt">contactez</a> me.
+
+statistik.stat.numbers=Nombre
+statistik.stat.numbers.desc=Aperçu statistique
+statistik.totNumberOfNominations=Nombre total de nominations (français)
+statistik.totNumberOfColourNames=Nombre total de couleurs différentes (français)
+
+statistik.stat.top20=Top 20
+statistik.stat.top20.desc=Les vingt noms les plus communs de noms de couleurs
+
+statistik.stat.average.overview=Evaluation moyenne
+statistik.stat.average.title=Statistique moyenne pour le nom de couleur
+statistik.stat.average.quest=Requêtes, demandes
+statistik.stat.average.all=Toutes statistiques
+statistik.stat.average.none.avail=Désolé aucune donnée disponible
+
+
+statistik.stat.average.rgb.desc=Valeurs de couleur
+statistik.stat.average.rgb.proc.title=Pourcentages de couleur
+statistik.stat.average.rgb.hsv.h.title=Tonalité de couleur sur la roue chromatique (0⁰&#160;=&#160;rouge, 120⁰&#160;=&#160;vert, 240⁰&#160;=&#160;bleu)
+statistik.stretched=Teintes
+
+statistik.stat.average.css.title=CSS spécification de couleur (00 .. FF)
+statistik.stat.average.java.title=Java définition de couleur (0 .. 255)
+
+statistik.nominations=Nominations
+statistik.nomination=Nomination
+statistik.similarColours=Couleurs similaires
+statistik.similarColours.desc=Les couleurs suivantes sont similaires en couleur, en saturation ou en luminosité.
+statistik.colourAverage=Moyenne
+statistik.female=Femme
+statistik.male=Homme
+
+statistik.stat.byName=Statistique par Nom
+statistik.stat.byName.desc=Quelle couleur appartient à un nom donné
+statistik.stat.byName.tineye.images=Images dans cette couleur
+statistik.stat.byname.tineye.TINEYE=Photos sur Flickr (TinEye Labs)
+statistik.stat.byColour=Statistique par couleur
+statistik.stat.byColour.desc=Quels sont les noms proches d'une couleur donnée
+statistik.stat.byColour.quest=Enquête (faire une demande)
+
+######################### Kontakt #########################
+# ROOT/kontakt
+_DIR_/kontakt/=Contact
+_FILE_/kontakt/index=Contact
+
+kontakt.link.name = Contact
+kontakt.link.anregung=stimulation
+
+kontakt.name    = "Vontre nom"
+kontakt.email   = "Votre E-mail *"
+kontakt.subject = "Sujet +"
+kontakt.message = "Message +"
+kontakt.submit  = "Envoyer"
+kontakt.backMsg = "Souhaitez-vous une copie de ce message à votre adresse E-mail?"
+kontakt.intro    = "Veuillez inscrive votre E-mail, message, envoi."
+kontakt.err.msg.1= S'il vous plaît validez votre E-mail, message, envoi!
+kontakt.thanks=Merci beaucoup
+kontakt.thanks.desc=Merci, votre message à été envoyé à <tt>www.colour.name</tt>.
+
+
+######################### Nominationen #####################
+# ROOT/nominate
+_DIR_/nominate/=Nomination
+_FILE_/nominate/index=Namensvorschlag
+
+nominate.descLine1=Das Hauptziel dieses <i>Farbtrainings</i> ist es, die Farbnamen möglichst <b>präzise</b> zu definieren..
+nominate.descLine2=Bitte Augen senkrecht zum Bildschirm.
+nominate.nameThisColour=Bennenen Sie die folgende Farbe
+
+nominate.dropdown.pleaseselect=Bitte wählen
+nominate.nominations="Nominationen"
+nominate.nomination="Nomination"
+nominate.retina=Netzhauttyp
+nominate.medium=Ausgabemedium
+nominate.tipp=Tipp
+
+nominate.form.your.nomination=Farbname
+nominate.form.submit=Absenden
+nominate.form.different=Nächste Farbe zeigen
+
+submitted.your=Ihr
+submitted.nextButton=Nächste Farbe
+
+######################### About #####################
+_DIR_/disc/=Haftung
+_FILE_/disc/index=Haftungsausschluss
+_FILE_/disc/ein=Einladung
+
+
+####################### Beyond (Hintergründe) ###############
+_DIR_/beyond/=Hintergründe
+_FILE_/beyond/index=Infos und Hintergründe
+_FILE_/beyond/motivation=Motivation
+_FILE_/beyond/wiegeht=Wie funktioniert colour.name?
+_FILE_/beyond/translate=Übersetzungen
+_FILE_/beyond/gpl=Lizenzbestimmungen
+_FILE_/beyond/ein=Aufforderung zum Mitmachen
+_FILE_/beyond/disc=Datenschutz
+
+######################## TEMP #######################
+download.colour.name.src.disc=Quelltext (solange noch nicht auf GITHUB) von hier herunterladen: 

@@ -1,0 +1,49 @@
+h1 {
+  color : #068;
+  text-shadow: #006 3px 3px 5px;
+}
+
+h2 { 
+  color : #086;
+}
+
+.rahmen_lt { 
+  background-image: url('../img/layout/lt.png');
+  /*background-color: #cc4;*/
+}
+.rahmen_tt { 
+  /*background-color: #4c4;*/
+  background-image: url('../img/layout/tt.png');
+  background-repeat: repeat-x;
+}
+.rahmen_rt { 
+  background-image: url('../img/layout/rt.png');
+}
+.rahmen_ll { 
+  /* background-color: #c84; */
+  background-image:  url('../img/layout/ll.png');
+  background-repeat: repeat-y;
+}
+.rahmen_rr { 
+ /* background-color: #44c; */
+  background-image:  url('../img/layout/rr.png');
+  background-repeat: repeat-y;
+}
+.rahmen_rb { 
+  background-image:  url('../img/layout/rb.png');
+  background-repeat: no-repeat;
+}
+.rahmen_bb { 
+  /*background-color: #c4c;*/  
+  background-image: url('../img/layout/bb.png');
+  background-repeat: repeat-x;
+}
+.rahmen_lb { 
+  background-image: url('../img/layout/lb.png');
+  background-repeat: no-repeat;
+}
+
+.logo { 
+  background-image: url("../img/logo/logo.png");
+}
+
