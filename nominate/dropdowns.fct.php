@@ -27,7 +27,7 @@
 
     $result = $TPL_DB->getLangSelectResult($sql);
 
-    while ($row = mysqli_fetch_array($result, MYSQL_NUM)) {
+    while ($row = mysqli_fetch_array($result, MYSQLI_NUM)) {
        if($selectedID == $row[0]) {
          $drdo .= '<option selected="selected" value="' . $row[0] . '">' . $row[1] . '</option>' . "\n"; 
        } else {
