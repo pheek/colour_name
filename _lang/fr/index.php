@@ -7,7 +7,7 @@
     differenciée selon le sexe.</p>
 
   <p>Ce site compare votre perception à la perception moyenne des
-  couleurs. <a href='beyond/motiavtion.php'>...voir plus</a></p>
+  couleurs. <a href='beyond/motivation.php'>...voir plus</a></p>
 
   <ul>
     <li><a href="nominate">Personal Color Sensation</a>: Arranger une
@@ -22,5 +22,3 @@
   </ul>
 
 <p style="text-align: center; font-size: 320%;"><a href="nominate">Commencer</a></p>
-
-  

@@ -14,5 +14,3 @@
 <?=$TPL_PATHS->intLink("kontakt"   , $TPL_LANG->getText('kontakt.link.name')     ); ?></p>
 
 <?php include $TPL_PATHS->getServerRoot() . '/copyright.php'; ?>
-  
-

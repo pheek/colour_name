@@ -30,7 +30,7 @@ Sprache übersetzen zu können?</p>
 <h4>Die technische Datei</h4>
 
 <ul><li>
-<a href="http://colour.name/de.props">de.props</a> (<a href="http://colour.name/en.props">en.props</a>)<br />
+<a href="http://colour.name/_lang/de.props">de.props</a> (<a href="http://colour.name/_lang/en.props">en.props</a>)<br />
 Hier nur die rechte Seite des Gleichheitszeichens übersetzen)
 </li></ul>
 

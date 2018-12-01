@@ -10,7 +10,7 @@
 Grâce aux vêtements pour bébés de ma fille, je sais maintenant que la gamme Violet-Rose-Pink-Fuchsia-Magenta possède toutes les combinaissons imaginables.
 </p>
 
-<p>Tous ceux qui aiment les couleurs et leurs noms, sont invités par la présente de <a href=’<?php echo $TPL_PATHS->getClientRoot(); ?>/nominate’>fournir des noms précis</a> pour les 16.7 millions de couleurs disponilble actuellemet sur les écans d’ordinateurs … respectivement, pour tester et former leur propre perception des couleurs.</p>
+<p>Tous ceux qui aiment les couleurs et leurs noms, sont invités par la présente de <a href='<?php echo $TPL_PATHS->getClientRoot(); ?>/nominate'>fournir des noms précis</a> pour les 16.7 millions de couleurs disponilble actuellemet sur les écans d’ordinateurs … respectivement, pour tester et former leur propre perception des couleurs.</p>
 
 <p>Mais <b>Attention</b> : les écrans ne moftrent qu’une petite partie des couleurs de la nature et les coulers varient énormement d’un fabricant à l’autre et d’un modèle à l’autre, tout en sachant que les femmes et les hommes ont une perception des couleurs différente. Alors si vous participez, il est nécessaire de nomer le type d’écan, et votre genre.</p>
 
@@ -29,6 +29,6 @@ Grâce aux vêtements pour bébés de ma fille, je sais maintenant que la gamme 
 <li>Graveur et photogrape</li>
 <li>Fabricant d’écrans (éventuellement imprimé ensiute)</li>
 <li>Tous avec joie et des ambitions de couleurs</li>
-<li>Traduction des noms de coulerus (<a href=’https://de.colour.name’>allemand</a>, <a href=’https://en.colour.name’>angais</a>, français)</li>
+<li>Traduction des noms de coulerus (<a href='?lang=de'>allemand</a>, <a href='?lang=en'>angais</a>, français)</li>
 </ul>
 

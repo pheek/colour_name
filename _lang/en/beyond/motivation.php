@@ -40,7 +40,7 @@ To be aware of souch minimal nuances (and to measure them) can be of interrest f
   <li>Photographers</li>
   <li>Producers of monitors and printers</li>
   <li>Everyone having fun with colors</li>
-  <li>Translations of color terms (english, <a href="?lang=de">german</a>, ...)</li>
+  <li>Translations of color terms (english, <a href="?lang=de">german</a>, <a href='?lang=fr'>french</a>, ...)</li>
 </ul>
 
 <hr />

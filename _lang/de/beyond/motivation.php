@@ -45,7 +45,7 @@ kann für jede der folgenden Zielgruppen den einen oder anderen Nutzen bringen.<
   <li>Grafker und Fotografen</li>
   <li>Hersteller von Monitoren (evtl. später Druckern)</li>
   <li>Alle, mit Spaß an und Ambitionen zu Farben</li>
-  <li>Übersetzungen von Farbbezeichnungen (deutsch, <a href="?lang=en">englisch</a>, ...)</li>
+  <li>Übersetzungen von Farbbezeichnungen (deutsch, <a href="?lang=en">englisch</a>, <a href='?lang=fr'>französisch</a>, ...)</li>
 </ul>
 
 <hr />

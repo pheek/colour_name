@@ -10,19 +10,19 @@ L’application colour.name a été construite de telle sorte que la traduction 
 
 <p>Je ne peux malheureusement le rénumérer financièrement, mais je pourrais citer les noms de pesone ou agences de traduction par lien.</p>
 
-<p>Inerêt ? Contactez-nous pour que je puisse vous envoyer ces textes à traduire : <?=$TPL_PATHS→intLink("conntact"   , $TPL_LANG->getText('kontakt.link.name')      ); ?></p>
+<p>Inerêt? Contactez-nous pour que je puisse vous envoyer ces textes à traduire : <?=$TPL_PATHS->intLink("conntact"   , $TPL_LANG->getText('kontakt.link.name')      ); ?></p>
 
  <?php include $TPL_PATHS->getServerRoot() . '/copyright.php'; ?> 
 
 <hr>
 <h2>Détails</h2>
 
-<p>Qu’est-ce tu’un traducteur doit savoir pour traduire colour.name de lange ?</p>
+<p>Qu’est-ce tu’un traducteur doit savoir pour traduire colour.name de langue?</p>
 <h3>Traduire les pages suivantes</h3>
 
 <h4>Le dossier technique</h4>
 
-<ul><li><a href=’http://colour.name/de.props’>de.props</a> (<a href=’http://colour.name/en.props’>en.props</a>, <a href=’http://colour.name/fr.props’>fr.props</a>)<br />
+<ul><li><a href=’http://colour.name/_lang/de.props’>de.props</a> (<a href=’http://colour.name/_lang/en.props’>en.props</a>, <a href=’http://colour.name/_lang/fr.props’>fr.props</a>)<br />
 (Traduire ici uniquement le codé droit du signe égal.)
 </li></ul>
 

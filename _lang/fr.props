@@ -88,41 +88,41 @@ kontakt.thanks.desc=Merci, votre message à été envoyé à <tt>www.colour.name
 ######################### Nominationen #####################
 # ROOT/nominate
 _DIR_/nominate/=Nomination
-_FILE_/nominate/index=Namensvorschlag
+_FILE_/nominate/index=Proposition de noms
 
-nominate.descLine1=Das Hauptziel dieses <i>Farbtrainings</i> ist es, die Farbnamen möglichst <b>präzise</b> zu definieren..
-nominate.descLine2=Bitte Augen senkrecht zum Bildschirm.
-nominate.nameThisColour=Bennenen Sie die folgende Farbe
+nominate.descLine1=L'objectif prinipal de cette formation (training) est de définir les noms de couleurs aussi proche que possible.
+nominate.descLine2=SVP les yeux per pendiculaire à l'écran.
+nominate.nameThisColour=Nommez la couleur suivante
 
-nominate.dropdown.pleaseselect=Bitte wählen
-nominate.nominations="Nominationen"
-nominate.nomination="Nomination"
-nominate.retina=Netzhauttyp
-nominate.medium=Ausgabemedium
-nominate.tipp=Tipp
+nominate.dropdown.pleaseselect=Veuillez sélectionner
+nominate.nominations=Nomminations
+nominate.nomination=Nommination
+nominate.retina=Type de rétine
+nominate.medium=Sortie moyenne
+nominate.tipp=Conseil
 
-nominate.form.your.nomination=Farbname
-nominate.form.submit=Absenden
-nominate.form.different=Nächste Farbe zeigen
+nominate.form.your.nomination=Nom de couleur
+nominate.form.submit=Envoyer
+nominate.form.different=Afficher la couleru suivante
 
-submitted.your=Ihr
-submitted.nextButton=Nächste Farbe
+submitted.your=Votre
+submitted.nextButton=couleur suivante
 
 ######################### About #####################
-_DIR_/disc/=Haftung
-_FILE_/disc/index=Haftungsausschluss
-_FILE_/disc/ein=Einladung
+_DIR_/disc/=Responsabilité
+_FILE_/disc/index=Clause de non-responsabilité
+_FILE_/disc/ein=Invitation
 
 
 ####################### Beyond (Hintergründe) ###############
-_DIR_/beyond/=Hintergründe
-_FILE_/beyond/index=Infos und Hintergründe
+_DIR_/beyond/=Arrière-plans
+_FILE_/beyond/index=Infos et arrière-plans
 _FILE_/beyond/motivation=Motivation
-_FILE_/beyond/wiegeht=Wie funktioniert colour.name?
-_FILE_/beyond/translate=Übersetzungen
-_FILE_/beyond/gpl=Lizenzbestimmungen
-_FILE_/beyond/ein=Aufforderung zum Mitmachen
-_FILE_/beyond/disc=Datenschutz
+_FILE_/beyond/wiegeht=Comment fonctionne le nom de couleur
+_FILE_/beyond/translate=Traduction
+_FILE_/beyond/gpl=Spécifications de licence
+_FILE_/beyond/ein=Invitation à participer
+_FILE_/beyond/disc=Protection des données
 
 ######################## TEMP #######################
-download.colour.name.src.disc=Quelltext (solange noch nicht auf GITHUB) von hier herunterladen: 
+download.colour.name.src.disc=Code source
