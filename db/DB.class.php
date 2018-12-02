@@ -49,6 +49,7 @@ class DB {
    * Zurückgegeben wird das $result
    */
   public function getLangSelectResult($select, $lang = "") {
+//	  echo "THE SELECT: " . $select . ' (lang=' . $lang;
     $select = $this->langReplacer($select, $lang); 
     return $this->select($select);
   }

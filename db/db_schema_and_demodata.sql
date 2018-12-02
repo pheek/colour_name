@@ -349,15 +349,15 @@ INSERT INTO `text` (`F_sprache`, `F_begriff`, `Text`) VALUES
 
 ('de', 17, 'Rot-Monochromatisch Farbenblind'),
 ('en', 17, 'red-monochromatic (color-blind)'),
-('fr', 17, 'monochromatique ROUGE'),
+('fr', 17, 'daltonien, daltonienne monochromatique ROUGE'),
 
 ('de', 18, 'Grün-Monochromatisch Farbenblind'),
 ('en', 18, 'green-monochromatic (color-blind)'),
-('fr', 18, 'monochromatique VERT'),
+('fr', 18, 'daltonien, daltonienne monochromatique VERT'),
 
 ('de', 19, 'Blau-Monochromatisch Farbenblind'),
 ('en', 19, 'blue-monochromatic (color-blind)'),
-('fr', 19, 'monochromatique BLEU'),
+('fr', 19, 'daltonien, daltonienne monochromatique BLEU'),
 
 
 ('de', 20, 'IPS (LCD) z. B. iPad'),
