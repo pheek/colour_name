@@ -66,17 +66,22 @@
    * @return "mysql_resultset": Name, cnt, r, g, b, abstand
    */
   function getNearestColours($r, $g, $b, $lang="") {
-    //sleep(3); 
-    $sel = 'SELECT * FROM (SELECT `farbnamen`.`Name`, count(`farbnamen`.`Name`) as cnt, ' . 
-           'round(avg(`rgb`.`R`)) as r, round(avg(`rgb`.`G`)) as g, round(avg(`rgb`.`B`)) as b, ' . 
-           '((cast(`rgb`.`R` as signed)-'.$r.')*(cast(`rgb`.`R` as signed)-'.$r.') + (cast(`rgb`.`G` as signed)-'.$g.')*(cast(`rgb`.`G` as signed)-'.$g.') + (cast(`rgb`.`B` as signed)-'.$b.')*(cast(`rgb`.`B` as signed)-'.$b.')) as abstand ' .
-           'FROM `farbnamen`, `rgb`, `nomination` ' .
-           'WHERE  `farbnamen`.`ID` = `nomination`.`F_farbnamen` AND `nomination`.`F_rgb` = `rgb`.`ID` '.
-           'AND `nomination`.`F_Sprache` = "'.$lang.'" '  .
-           'GROUP BY Name ORDER BY abstand LIMIT 0, 1000) as nahe ' .
-           'WHERE cnt > 3 ORDER BY abstand LIMIT 7';
-    
-     global $TPL_DB;
+    //sleep(3);
+
+	  $sel = 'SELECT * FROM (SELECT `farbnamen`.`Name`, count(`farbnamen`.`Name`) as cnt,'.
+		  'round(avg(`rgb`.`R`)) as r, round(avg(`rgb`.`G`)) as g, round(avg(`rgb`.`B`)) as b, '.
+		  'avg(('.
+		  '(cast(`rgb`.`R` as signed)-'.$r.')*(cast(`rgb`.`R` as signed)-'.$r.') + '.
+		  '(cast(`rgb`.`G` as signed)-'.$g.')*(cast(`rgb`.`G` as signed)-'.$g.') + '.
+		  '(cast(`rgb`.`B` as signed)-'.$b.')*(cast(`rgb`.`B` as signed)-'.$b.'))) as abstand '.
+		  'FROM `farbnamen`, `rgb`, `nomination` '.
+		  'WHERE `farbnamen`.`ID` = `nomination`.`F_farbnamen` AND `nomination`.`F_rgb` = `rgb`.`ID` AND '.
+		  '`nomination`.`F_Sprache` = "'.$lang.'" '.
+		  'GROUP BY Name ORDER BY `abstand` ASC) '.
+		  'AS nahe WHERE cnt > 3 LIMIT 7';
+
+	  global $TPL_DB;
+
      return $TPL_DB->getLangSelectResult($sel, $lang);
    }
    
@@ -107,10 +112,10 @@
             'WHERE `farbnamen`.`ID` = `nomination`.`F_farbnamen` ' .
             'AND `nomination`.`F_Sprache` = "' .$lang. '" ' .
             'AND `nomination`.`F_rgb` = `rgb`.`ID` ' .
-            'GROUP BY `farbnamen`.`Name` '.
+            'GROUP BY `farbnamen`.`Name`, `farbnamen`.`ID` '.
             'ORDER BY anzahl DESC LIMIT 0 , 20 ';
      global $TPL_DB;
-     echo $sel;
+//     echo $sel;
      return $TPL_DB->select($sel);
    }
    
