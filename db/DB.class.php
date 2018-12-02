@@ -5,10 +5,10 @@ require_once __DIR__ . '/../_lang/LangBundle.class.php';
 class DB {
 
   private $connection;
-  
+
   private static $hostname = 'localhost';
-  private static $username = 'coloresV4';
-  private static $password = '123';
+  private static $username = 'coloresV4';  // CHANGE IN REAL WORLD!
+  private static $password = '123';        // CHANGE IN REAL WORLD!
   private static $dbname   = 'farbnamen';
 
   // constructor und "connect"
