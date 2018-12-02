@@ -110,6 +110,7 @@
             'GROUP BY `farbnamen`.`Name` '.
             'ORDER BY anzahl DESC LIMIT 0 , 20 ';
      global $TPL_DB;
+     echo $sel;
      return $TPL_DB->select($sel);
    }
    

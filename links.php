@@ -1,3 +1,3 @@
-<?php 
-    include 'dir.php' 
+<?php
+	include 'dir.php';
  ?>
