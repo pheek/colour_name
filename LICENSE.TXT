@@ -1,0 +1,5 @@
+LICENSE
+-------
+All code from "colour.name" lies under the GPL:
+https://www.gnu.org/licenses/gpl.html
+
