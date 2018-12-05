@@ -15,7 +15,7 @@
 namentlich oder auch Übersetzungsbüros per Link angeben.</p>
 
 <p>Interesse? Nehmen Sie Kontakt mit uns auf, damit ich Ihnen die zu übersetzenden Texte zusenden kann:
-<?=$TPL_PATHS->intLink("kontakt"   , $TPL_LANG->getText('kontakt.link.name')      ); ?></p>
+<?=$TPL_PATHS->intLink("kontakt"   , $TPL_LANG->getText('kontakt.link.name')); ?></p>
 
 <?php include $TPL_PATHS->getServerRoot() . '/copyright.php'; ?>
 
@@ -24,15 +24,17 @@ namentlich oder auch Übersetzungsbüros per Link angeben.</p>
 <p>Was muss ein/e Übersetzer/in wissen, um <a href="http://colour.name">colour.name</a> in eine andere
 Sprache übersetzen zu können?</p>
 
-<h3>Folgende Seiten sind zu übersetzen</h3>
 
+<h3>Folgende Seiten sind zu übersetzen</h3>
 
 <h4>Die technische Datei</h4>
 
 <ul><li>
 <a href="http://colour.name/_lang/de.props">de.props</a> (<a href="http://colour.name/_lang/en.props">en.props</a>)<br />
 Hier nur die rechte Seite des Gleichheitszeichens übersetzen)
-</li></ul>
+</li>
+<li>In der Datenbank sind die Netzhauttypen (weiblich, männlich, rot-grün-blind, ...) aber auch die
+Ausgabemedie (CRT, LCD, TFT, LED, ...) zu übersetzen. Dabei handelt es sich um ca. 20 Begriffe.</li></ul>
 
 <h4>Folgende zu übersetzende Seiten sind online</h4>
 

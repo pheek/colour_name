@@ -1,28 +1,29 @@
 <form method="POST">
-  <?php
-     global $TPL_LANG;
+<?php
+	global $TPL_LANG;
 
-     $frm_name    = $TPL_LANG->getText('kontakt.name');
-     $frm_email   = $TPL_LANG->getText('kontakt.email');
-     $frm_subject = $TPL_LANG->getText('kontakt.subject');
-     $frm_message = $TPL_LANG->getText('kontakt.message');
-     $frm_submit  = $TPL_LANG->getText('kontakt.submit');
-     $frm_backMsg = $TPL_LANG->getText('kontakt.backMsg');
-     $frm_intro   = $TPL_LANG->getText('kontakt.intro');
+	$frm_name    = $TPL_LANG->getText('kontakt.name'   );
+	$frm_email   = $TPL_LANG->getText('kontakt.email'  );
+	$frm_subject = $TPL_LANG->getText('kontakt.subject');
+	$frm_message = $TPL_LANG->getText('kontakt.message');
+	$frm_submit  = $TPL_LANG->getText('kontakt.submit' );
+	$frm_backMsg = $TPL_LANG->getText('kontakt.backMsg');
+	$frm_intro   = $TPL_LANG->getText('kontakt.intro'  );
          
-     function emptyPostVar($pv) {
-       if(! isset($_POST[$pv])) {
-           //echo "{dbg emptiing: " . $pv . "}.<br />\n";
-           $_POST[$pv] = "";
-       }
-     }
-     emptyPostVar("POST_Name");
-     emptyPostVar("POST_EMail");
-     emptyPostVar("POST_Subject");
-     emptyPostVar("POST_Message"); 
-     emptyPostvar("POST_SelfMessage");
-     emptyPostVar("POST_kontakt"); 
+	function emptyPostVar($pv) {
+		if(! isset($_POST[$pv])) {
+			//echo "{dbg emptiing: " . $pv . "}.<br />\n";
+			$_POST[$pv] = "";
+		}
+	}
+	emptyPostVar("POST_Name"       );
+	emptyPostVar("POST_EMail"      );
+	emptyPostVar("POST_Subject"    );
+	emptyPostVar("POST_Message"    ); 
+	emptyPostvar("POST_SelfMessage");
+	emptyPostVar("POST_kontakt"    ); 
 ?>
+
   <p><?php echo $frm_intro; ?></p> 
   <table style="background-color: #ddf; width: 80%;">
     <tr>

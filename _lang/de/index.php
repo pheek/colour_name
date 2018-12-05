@@ -1,7 +1,7 @@
 <p>"Schau mal dieses schöne <span style="color: #45b741; font-weight: bold;">grüne</span> Shirt" 
   - "<span style="color: #45b741; font-weight: bold;">Grün</span>?
   Ich sehe nur <span style="color: #324fc5; font-weight: bold;">blau</span>." 
-  - "Ich meine das in <span style="color: #39cbbc; font-weight: bold;">Türkis</span>."
+  - "Ich meine das in <span style="color: #39cbbc; font-weight: bold;">türkis</span>."
   - "Aha, <span style="color: #286f94; font-weight: bold;">petrolblau</span>!"</p>
 
 <p>Die Wahrnehmung der Farben ist subjektiv, regional verschieden und geschlechterspezifisch.</p>

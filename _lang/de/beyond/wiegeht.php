@@ -26,5 +26,5 @@ variieren.</p>
 
 <h3>Auswertungen</h3>
 <p>Die Auswertungen suchen im Wesentlichen nur nach Namen, die mehr als drei mal genannt wurden. 
-Andere Nennungen werden ignoriert.</p>
+Andere Nennungen werden in einigen Statistiken ignoriert.</p>
 
