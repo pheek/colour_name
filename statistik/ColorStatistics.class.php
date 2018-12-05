@@ -85,7 +85,7 @@ class ColorStatistics {
     } else {
       $w = $edge;
     }
-    return '<table style="border-style: solid; border-color:gray;  width: '. $w .';  height: '.$edge.'; '.
+    return '<table class="colourBoxClass" style="width: '. $w .';  height: '.$edge.'; '.
                           'background-color: #'. $hex .';">'.
              '<tr><td>&#160;</td></tr></table>';
   }
@@ -356,11 +356,12 @@ class ColorStatistics {
   
   
   public function fullHTMLStatistics() {
-    echo '<table><tr style="vertical-align:top;"><td style="border-color: #aaa; border-style:solid; border: 2px;"><td style="margin-left:20px; margin-right: 20px; background-color: #' . $this->col->getHex(). ';">&#160;&#160;&#160;</td><td>';
+	  echo '<table style="width:100%;"><tr style="vertical-align:top;"><td style="border-color: #aaa; border-style:solid; border: 2px;"><td style="margin-left:20px; margin-right: 20px; background-color: #' . $this->col->getHex(). ';">&#160;&#160;&#160;</td><td>';
     $this->fullRangeByRGB();
     echo '</td><td style="margin-left:20px; margin-right: 20px; background-color: #' . $this->col->getHex(). ';">&#160;&#160;&#160;</td><td>';
     $this->fullRangeByName(3);
-    echo '</td></tr></table>';
+    echo '</td><td style=" margin-left:20px; margin-right: 20px; background-color: #' . $this->col->getHex(). ';">&#160;&#160;&#160;</td>';
+    echo '</tr></table>';
   }
 } // end class Color
 
