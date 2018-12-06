@@ -46,8 +46,6 @@
         <?php echo $TPL_BREADCRUMBS->getTrail(); ?>
         <hr />
 
-
-          <!-- content... TODO: Remove this helper comment after publishing-->
             <?php // Hier wird der eigentliche Content eingebaut: ?>
           <table style="width: 100%;"><tr><td><?php include $TPL_PATHS->getServerPathLang(); ?></td></tr></table>
 
