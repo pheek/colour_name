@@ -9,6 +9,7 @@
 <h2>Table de couleurs</h2>
 <ul>
 	<li><a href="https://fr.wikipedia.org/wiki/Liste_de_noms_de_couleur#I">Liste de noms de couleur</a> (Wikipedia)</li>
+	<li><a href="https://fr.wikipedia.org/wiki/Noms_et_adjectifs_de_couleur">Noms et adjectifs de couleur</a></li>
 	<li><a href='http://www.code-couleur.com/'>code-couleur</a></li>
 </ul>
 
