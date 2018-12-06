@@ -1,10 +1,10 @@
 
 	<h2>Fonctionnement du nom de la couleur</h2>
 	
-	<p>Ce projet à longterme examine les noms des coulerus par sexe, support de sortie, heure et lieu.
-		Premierement, je voulais spécifier des noms de couleurs,
-		afin que le sujet de la roue chomatiqe puisse sélectionner la couleur appropriée.
-		Cette méthode de «choix par nom» présente l&apos;avantage que la graduation plus précise des couleurs similaires par les sujet le désavantage de ne pouvrir afficher tous les noms das le cahier des charges est evident.
+	<p>Ce projet à longterme examine les noms des couleurs par sexe, support de sortie, heure et lieu.
+		Premièrement, je voulais spécifier des noms de couleurs,
+		afin que le sujet de la roue chromatique puisse sélectionner la couleur appropriée.
+		Cette méthode de «choix par nom» présente l&apos;avantage que la graduation plus précise des couleurs similaires par les sujet le désavantage de ne pouvoir afficher tous les noms dans le cahier des charges est évident.
 		
 
 		<h3>Libre choix des noms</h3>
@@ -23,11 +23,11 @@
 		
 		
 		<h3>Capturer</h3>
-		<p>La couleur (RVB), son nom, la langue, le Type de rétine sont enregistreés (prinipalement de sexe féminin ou masculin), l'heure et l'adresse IP. L'adresse IP n'a aucunt importance, mais peut être utilisés pour évaluer la région. Elle n'est utilisée à aucune autre fin. Il ist également possible de savoir si les noms de couleurs (les que «rose») vaient dans le temps au selon les régions.</p>
+		<p>La couleur (RVB), son nom, la langue, le Type de rétine sont enregistrées (principalement de sexe féminin ou masculin), l'heure et l'adresse IP. L'adresse IP n'a aucune importance, mais peut être utilisés pour évaluer la région. Elle n'est utilisée à aucune autre fin. Il est également possible de savoir si les noms de couleurs (les que «rose») varient dans le temps au selon les régions.</p>
 		
 		<h3>Jaune</h3>
 		<p>Nos yeux sont dans les zones de vert et de rouge assez sensibles. Cela signifie que nous pouvons bien distinguer de très nombreuses variantes de jaunes. Ceux-ci peuvent être trouvés dans une roue chromatique RVB mais dans une très petite zone. C'est pourquoi j'ai écarté un peut la roue chromatique dans la zone de jaune lors de la sélection aléatoire, de sorte que les tons jaunes apparaissent aussi un peu plus fréquement.</p>
 		
-		<h3>Evaluation</h3>
-		<p>Les évaluations ne recherchent essentiellement que les noms qui ont été appelés plus que trois fois. Auters mentions sont ignorées.</p>
+		<h3>Évaluation</h3>
+		<p>Les évaluations ne recherchent essentiellement que les noms qui ont été appelés plus que trois fois. Autres mentions sont ignorées.</p>
 

@@ -15,15 +15,15 @@ blue=bleu
 ######################### Statistik #######################
 # ROOT/statistik
 _DIR_/statistik/=Statistiques
-_FILE_/statistik/index=Statistiques sites principaug
-_FILE_/statistik/numbers=Noms de couleurs par nombers
+_FILE_/statistik/index=Statistiques sites principaux
+_FILE_/statistik/numbers=Noms de couleurs par nombres
 _FILE_/statistik/top20=Top 20
 _DIR_/statistik/nachName/=par nom
 _FILE_/statistik/nachName/index=statistique par nom de la couleur
 _DIR_/statistik/nachFarbe/=par couleur
 _FILE_/statistik/nachFarbe/index=Statistique par couleur
 
-statistik.intro.desc=Vous trouvez ici quelques statistiques sur les couleurs et leus noms. D'autres viendrons si vous le souhaitez.
+statistik.intro.desc=Vous trouvez ici quelques statistiques sur les couleurs et leurs noms. D'autres viendrons si vous le souhaitez.
 statistik.intro.desc.rfc=Au lieu d'attendre vous pouvez me demander directement d'installer plus de statistiques: <a href="../kontakt">contactez</a> me.
 
 statistik.stat.numbers=Nombre
@@ -73,7 +73,7 @@ _FILE_/kontakt/index=Contact
 kontakt.link.name = Contact
 kontakt.link.anregung=stimulation
 
-kontakt.name    = "Vontre nom"
+kontakt.name    = "Votre nom"
 kontakt.email   = "Votre E-mail *"
 kontakt.subject = "Sujet +"
 kontakt.message = "Message +"
@@ -90,20 +90,20 @@ kontakt.thanks.desc=Merci, votre message à été envoyé à <tt>www.colour.name
 _DIR_/nominate/=Nomination
 _FILE_/nominate/index=Proposition de noms
 
-nominate.descLine1=L'objectif prinipal de cette formation (training) est de définir les noms de couleurs aussi proche que possible.
-nominate.descLine2=SVP les yeux per pendiculaire à l'écran.
+nominate.descLine1=L'objectif principal de cette formation (training) est de définir les noms de couleurs aussi proche que possible.
+nominate.descLine2=SVP les yeux perpendiculaire à l'écran.
 nominate.nameThisColour=Nommez la couleur suivante
 
 nominate.dropdown.pleaseselect=Veuillez sélectionner
-nominate.nominations=Nomminations
-nominate.nomination=Nommination
+nominate.nominations=Nominations
+nominate.nomination=Nomination
 nominate.retina=Type de rétine
 nominate.medium=Sortie moyenne
 nominate.tipp=Conseil
 
 nominate.form.your.nomination=Nom de couleur
 nominate.form.submit=Envoyer
-nominate.form.different=Afficher la couleru suivante
+nominate.form.different=Afficher la couleur suivante
 
 submitted.your=Votre
 submitted.nextButton=couleur suivante
