@@ -17,8 +17,5 @@
         echo '		<link rel="stylesheet" type="text/css" href="' . 
               $TPL_PATHS->getClientRoot() . "/" . $cssFileName.'"/>' . "\n";
     }
-  } /*else {
-	  $TPL_CUSTOM_CSS = []; // empty array, so that sizeof() has a meaning!
-	  } */
-  
+  }  
 ?>

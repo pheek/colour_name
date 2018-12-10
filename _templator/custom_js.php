@@ -17,7 +17,5 @@
 			echo '		<script type="text/javascript" src="' .
 			 $TPL_PATHS->getClientRoot() . "/" . $jsFileName . '"></script>' . "\n";
 		}
-	} /* else {
-		$TPL_CUSTOM_JS = []; // guarantee an empty vector, so sizeof() makes sense
-		} */
+	}
  ?>
