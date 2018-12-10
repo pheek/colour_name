@@ -1,5 +1,5 @@
-  <p>"Regardez cette belle chemise <span style='color: #45b741; font-weight: bold;'>vert</span>."
-    - "Vert"? Je ne vois que le <span style='color: #39cbbc; font-weight: bold;'>bleu turquoise</span>."
+  <p>"Regardez cette belle chemise <span style='color: #45b741; font-weight: bold;'>verte</span>."
+    - "Verte"? Je ne vois que le <span style='color: #39cbbc; font-weight: bold;'>bleu turquoise</span>."
     - "Aha, <span style='color: #286f94; font-weigth: bold;'>bleu pétrole</span>!"</p>
     
 
