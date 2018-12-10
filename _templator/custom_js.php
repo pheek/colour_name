@@ -5,7 +5,7 @@
 	 * Damit im "head" ein zusätzliches Skript eingefügt werden kann, muss dieses mit
 	 *
 	 * global $TPL_CUSTOM_JS;
-	 * $TPL_CUSTOM_JS[sizeof($TPL_CUSTOM_JS)] = "kontakt/js/abc.js";
+	 * $TPL_CUSTOM_JS[] = "kontakt/js/abc.js";
 	 *
 	 * deklariert (genauer: hinzugefügt) werden.
 	 * Der Pfad ist relativ zum Projektverzeichnis anzugeben (also immer volle

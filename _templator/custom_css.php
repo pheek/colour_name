@@ -5,7 +5,7 @@
    * Damit im "head" ein weiteres CSS eingefügt werden kann, muss dieses mit
    *
    * global $TPL_CUSTOM_CSS;
-   * $TPL_CUSTOM_CSS[sizeof($TPL_CUSTOM_CSS)] = "kontakt/css/abc.css";
+   * $TPL_CUSTOM_CSS[] = "kontakt/css/abc.css";
    *
    * deklariert (genauer: hinzugefügt) werden.
    */
