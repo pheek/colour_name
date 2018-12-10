@@ -14,11 +14,11 @@
     echo "\n";
     foreach($TPL_CUSTOM_CSS as $cssFileName) {
         //TODO: add Client path.
-        echo '    <link rel="stylesheet" type="text/css" href="' . 
+        echo '		<link rel="stylesheet" type="text/css" href="' . 
               $TPL_PATHS->getClientRoot() . "/" . $cssFileName.'"/>' . "\n";
     }
-  } else {
+  } /*else {
 	  $TPL_CUSTOM_CSS = []; // empty array, so that sizeof() has a meaning!
-  }
+	  } */
   
 ?>

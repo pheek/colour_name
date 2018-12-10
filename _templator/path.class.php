@@ -184,6 +184,12 @@ if(! isset($TPL_PATHS)) {
   $TPL_PATHS = new TPL_Paths(); // use as singleton: only instantiate here once.
 }
 
+/*
+global $TPL_CUSTOM_CSS;
+$TPL_CUSTOM_CSS = [];
+global $TPL_CUSTOM_JS;
+$TPL_CUSTOM_JS = [];
+*/
 /*DEBUG 
  * Einschalten zum Debuggen:
  */
