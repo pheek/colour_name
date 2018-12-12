@@ -1,5 +1,6 @@
 <?php
-	$TMP_NO_LANG_FOLDER = true;
+	global $TPL_NO_LANG_FOLDER;
+	$TPL_NO_LANG_FOLDER = true;
 	include_once 'dir.php';
  ?>
 

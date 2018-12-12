@@ -71,7 +71,12 @@
 
   public function getServerPathLang() {
     global $TPL_LANG;
-    $serverPathLang =  $this->TPL_SERVER_ROOT . "_lang/" .  $TPL_LANG->getLanguage() . $this->getCanonicalClientPath();
+    global $TPL_NO_LANG_FOLDER;
+    if($TPL_NO_LANG_FOLDER) {
+	    $serverPathLang =  $this->TPL_SERVER_ROOT . "/". $this->getCanonicalClientPath();
+    } else {
+	    $serverPathLang =  $this->TPL_SERVER_ROOT . "_lang/" .  $TPL_LANG->getLanguage() . $this->getCanonicalClientPath();
+    }
 
     //echo "debug path.class.php :: getServerPathLang()$serverPathLang = ";
     //echo $serverPathLang . '<br/>';
