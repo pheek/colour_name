@@ -36,5 +36,5 @@
   include_once 'breadcrumbs.class.php';
   // USE $TPL_BREADCRUMBS->..
 
-  include $TPL_PATHS->getServerRoot() . "_lang/layout.php";
+  include $TPL_PATHS->getServerRoot() . "_layout/layout.php";
 ?>

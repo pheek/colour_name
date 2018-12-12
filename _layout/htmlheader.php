@@ -18,7 +18,7 @@
 <?php include $TPL_PATHS->getServerRoot() . "_templator/custom_css.php"; ?>
 <?php include $TPL_PATHS->getServerRoot() . "_templator/custom_js.php" ; ?>
 
-		<title><?php
-    //global $TPL_LANG;
-	  echo $TPL_LANG->getPageTitle(); // $TPL_PAGE_TITLE[$TPL_LANG->getLanguage()]; ?></title>
+		<title>
+<?php /* global $TPL_LANG; */ echo $TPL_LANG->getPageTitle(); /*$TPL_PAGE_TITLE[$TPL_LANG->getLanguage()]; */ ?>
+		</title>
 	</head>
