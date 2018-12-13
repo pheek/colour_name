@@ -242,7 +242,7 @@ INSERT INTO `text`
 (`F_sprache`, `F_begriff`, `Text`                                        ) VALUES
 (       'de',          1 , 'Flüssigkristallbildschirm (LCD)'             ),
 (       'en',          1 , 'Liquid Crystal Display (LCD)'                ),
-(       'fr',          1 , 'Écran à cristaux liquides (ACL/LCD)'         ),
+(       'fr',          1 , 'Ecran à cristaux liquides (ACL/LCD)'         ),
 
 (       'de',          2 , 'Kathodenstrahlröhre (CRT)'                   ),
 (       'en',          2 , 'Cathode ray tube (CRT)'                      ),
@@ -258,7 +258,7 @@ INSERT INTO `text`
 
 (       'de',          5 , 'Plasmabildschirm'                            ),
 (       'en',          5 , 'Plasma display'                              ),
-(       'fr',          5 , 'Plasma display'                              ),
+(       'fr',          5 , 'Ecran de plasma'                             ),
 
 (       'de',          6 , 'Photo (Aus-)druck'                           ),
 (       'en',          6 , 'Photo print'                                 ),
