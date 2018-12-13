@@ -10,7 +10,7 @@ L’application colour.name a été construite de telle sorte que la traduction 
 
 <p>Je ne peux malheureusement le rémunérer financièrement, mais je pourrais citer les noms de personnes ou agences de traduction par lien.</p>
 
-<p>Intérêt? Contactez-nous pour que je puisse vous envoyer ces textes à traduire : <?=$TPL_PATHS->intLink("contact"   , $TPL_LANG->getText('kontakt.link.name')      ); ?></p>
+<p>Intérêt? Contactez-nous pour que je puisse vous envoyer ces textes à traduire : <?=$TPL_PATHS->intLink("kontakt"   , $TPL_LANG->getText('kontakt.link.name')      ); ?></p>
 
  <?php include $TPL_PATHS->getServerRoot() . '/copyright.php'; ?> 
 
