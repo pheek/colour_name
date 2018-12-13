@@ -15,6 +15,8 @@
 			<span style="color: #0F0;">VERT</span> et
 			<span style="color: #00F;">BLEU</span>
 
+			(<span style="color: #F00;">R</span><span style="color: #0F0;">V</span><span style="color: #00F;">B</span>)
+
 			à nommer par les sujets.
 
 			Des couleurs telles que "vert fraise" (la couleur des feuilles

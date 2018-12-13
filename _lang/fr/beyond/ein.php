@@ -1,7 +1,7 @@
 <p>Chers parents, amis et connaissance</p>
-<p>Comme certains d‘entre vous le savent, je traile ce travail depuis longtemps: <a href=‘www.colour.name‘>Nom de couleur</a>. 
+<p>Comme certains d‘entre vous le savent, je traite ce travail depuis longtemps: <a href=‘www.colour.name‘>Nom de couleur</a>. 
 
-J‘ai remodelé le site Web en une étape de travail plus importante et l‘ai rendu multilingue. Il existe maintenant les trois pages... </p>
+J‘ai remodelé le site web en une étape de travail plus importante et l‘ai rendu multilingue. Il existe maintenant les trois pages... </p>
 
 <ul>
 <li><a href=‘https://de.colour.name‘></a>de.colour.name (allemand)</li>

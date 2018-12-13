@@ -33,5 +33,5 @@
 </ul>
 
 <h2>Clause de protection</h2>
-<p>"<tt>www.colour.name</tt>" n'a aucune influence sur le contenu des liens ci-dessus. Le contenu illégal diot-être signalé:
+<p>"<tt>www.colour.name</tt>" n'a aucune influence sur le contenu des liens ci-dessus. Le contenu illégal doit-être signalé:
    <?=$TPL_PATHS->intLink("kontakt", "Contact"); ?>

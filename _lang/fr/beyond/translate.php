@@ -24,11 +24,11 @@ L’application colour.name a été construite de telle sorte que la traduction 
 <h4>Le dossier technique</h4>
 
 <ul><li><a href='http://colour.name/_lang/de.props'>de.props</a> (<a href='http://colour.name/_lang/en.props'>en.props</a>, <a href='http://colour.name/_lang/fr.props'>fr.props</a>)<br />
-(Traduire ici uniquement le codé droit du signe égal.)
+(Traduire ici uniquement le coté droit du signe égal.)
 </li></ul>
 
 
-<h4>Ce qui suit à traduire les pages sont en ligne</h4>
+<h4>Ce qui suit sont les pager à traduire en ligne</h4>
 
 <ul> 
  <li>Page principale (<a href="http://colour.name">colour.name</a>)</li> 

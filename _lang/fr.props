@@ -24,7 +24,7 @@ _DIR_/statistik/nachFarbe/=par couleur
 _FILE_/statistik/nachFarbe/index=Statistique par couleur
 
 statistik.intro.desc=Vous trouvez ici quelques statistiques sur les couleurs et leurs noms. D'autres viendrons si vous le souhaitez.
-statistik.intro.desc.rfc=Au lieu d'attendre vous pouvez me demander directement d'installer plus de statistiques: <a href="../kontakt">contactez</a> me.
+statistik.intro.desc.rfc=Au lieu d'attendre vous pouvez me demander directement d'installer plus de statistiques: <a href="../kontakt">contactez</a> moi.
 
 statistik.stat.numbers=Nombre
 statistik.stat.numbers.desc=Aperçu statistique
@@ -54,8 +54,8 @@ statistik.nomination=Nomination
 statistik.similarColours=Couleurs similaires
 statistik.similarColours.desc=Les couleurs suivantes sont similaires en couleur, en saturation ou en luminosité.
 statistik.colourAverage=Moyenne
-statistik.female=Femme
-statistik.male=Homme
+statistik.female=féminin
+statistik.male=masculin
 
 statistik.stat.byName=Statistique par Nom
 statistik.stat.byName.desc=Quelle couleur appartient à un nom donné
@@ -63,7 +63,7 @@ statistik.stat.byName.tineye.images=Images dans cette couleur
 statistik.stat.byname.tineye.TINEYE=Photos sur Flickr (TinEye Labs)
 statistik.stat.byColour=Statistique par couleur
 statistik.stat.byColour.desc=Quels sont les noms proches d'une couleur donnée
-statistik.stat.byColour.quest=Enquête (faire une demande)
+statistik.stat.byColour.quest=faire une demande
 
 ######################### Kontakt #########################
 # ROOT/kontakt
@@ -79,7 +79,7 @@ kontakt.subject = "Sujet +"
 kontakt.message = "Message +"
 kontakt.submit  = "Envoyer"
 kontakt.backMsg = "Souhaitez-vous une copie de ce message à votre adresse E-mail?"
-kontakt.intro    = "Veuillez inscrive votre E-mail, message, envoi."
+kontakt.intro    = "Veuillez inscrive votre E-mail, sujet ou message."
 kontakt.err.msg.1= S'il vous plaît validez votre E-mail, message, envoi!
 kontakt.thanks=Merci beaucoup
 kontakt.thanks.desc=Merci, votre message à été envoyé à <tt>www.colour.name</tt>.
@@ -91,7 +91,7 @@ _DIR_/nominate/=Nomination
 _FILE_/nominate/index=Proposition de noms
 
 nominate.descLine1=L'objectif principal de cette formation (training) est de définir les noms de couleurs aussi proche que possible.
-nominate.descLine2=SVP les yeux perpendiculaire à l'écran.
+nominate.descLine2=S'il vous plait les yeux perpendiculaire à l'écran.
 nominate.nameThisColour=Nommez la couleur suivante
 
 nominate.dropdown.pleaseselect=Veuillez sélectionner

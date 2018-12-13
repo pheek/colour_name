@@ -11,8 +11,8 @@
 
   <ul>
     <li><a href="nominate">Personal Color Sensation</a>: Arranger une
- couleur un nom aussi. Il vous monter comment les autres participants
-      voient ce nom au ont nommé cette couleur.</li>
+ couleur un nom aussi. Il vous montre comment les autres participants
+      voient ce nom ou ont nommé cette couleur.</li>
     <li><a href="statistik">Statistiques</a> (par exemple, couleur
  moyenne): recherchez un nom de couleur et consultez la couleur
       moyenne.</li>
