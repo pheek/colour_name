@@ -18,6 +18,17 @@ if(typeof(String.prototype.trim) != "function") {
 // A) Lesen
 //*********
 
+
+function readStringFromFieldViaId(id) {
+  var feld;
+  feld = document.getElementById(id);
+  if(feld) {
+      return feld.value;
+  } else {
+      return null;
+  }
+}
+
 function readNumberFromFieldViaId(id) {
   var str = readStringFromFieldViaId(id);
   if(null != str && str.length > 0) {
@@ -29,16 +40,6 @@ function readNumberFromFieldViaId(id) {
 
 function getTrimmedValue(inputFieldId) {
   return readStringFromFieldViaId(inputFieldId).trim();
-}
-
-function readStringFromFieldViaId(id) {
-  var feld;
-  feld = document.getElementById(id);
-  if(feld) {
-      return feld.value;
-  } else {
-      return null;
-  }
 }
 
 // B) Schreiben

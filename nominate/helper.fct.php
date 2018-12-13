@@ -38,7 +38,7 @@
 			}
 		}
 
-		include $incl;
+		include_once $incl;
 
 	}
 

@@ -7,4 +7,3 @@
     <?=$TPL_PATHS->intLink("kontakt"   , "Kontakt"      ); ?> 
    </td>
  </tr></table>
-    

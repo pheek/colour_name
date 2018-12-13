@@ -9,5 +9,13 @@
 
 	global $TPL_CUSTOM_BODY_ONLOAD;
 	$TPL_CUSTOM_BODY_ONLOAD = 'disableButtons()';
+
+	global $TPL_NO_LANG_FOLDER;
+	$TPL_NO_LANG_FOLDER = true;
 	include "dir.php";
+
+	global $TPL_PATHS;
+	require_once $TPL_PATHS->getServerRoot() . '/nominate/helper.fct.php';
+	affenFormularSteuerung();
+
  ?>

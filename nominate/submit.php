@@ -1,5 +1,5 @@
 <?php
-
+// (c) 2018 phi@gress.ly
 	global $TPL_PATHS;
 	require_once $TPL_PATHS->getServerRoot() . 'statistik/ColorStatistics.class.php';
 	require_once $TPL_PATHS->getServerRoot() . '/_lang/LangBundle.class.php';

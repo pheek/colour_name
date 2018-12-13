@@ -1,11 +1,11 @@
 <?php
-  global $TPL_PATHS;
-  require_once $TPL_PATHS->getServerRoot() . 'domain/ColorNomination.class.php';
+	global $TPL_PATHS;
+	require_once $TPL_PATHS->getServerRoot() . 'domain/ColorNomination.class.php';
 
-  $nomination = getBean('Nomination');
-  if($nomination->isSaved() || isset($_POST['next_color'])) {
-    $nomination->reset();
-  }
+	$nomination = getBean('Nomination');
+	if($nomination->isSaved() || isset($_POST['next_color'])) {
+		$nomination->reset();
+	}
 ?>
 
 <?php global $TPL_LANG; ?>
@@ -14,11 +14,11 @@
    <?php $TPL_LANG->echoText('nominate.nameThisColour'); ?>:</p>
 
 <form  method="post"> <?php /* no action: Affenformular */ ?>
- 
-   <?php 
-      global $TPL_PATHS;
-      include_once $TPL_PATHS->getServerRoot() . 'nominate/dropdowns.fct.php';
-    ?>
+
+<?php
+	global $TPL_PATHS;
+	include_once $TPL_PATHS->getServerRoot() . 'nominate/dropdowns.fct.php';
+ ?>
 
    <table><tr><td><span id="netzhaut_lbl"><?php $TPL_LANG->echoText('nominate.retina') ?></span></td>                         <td><?php $TPL_LANG->echoText('nominate.medium')?></td>&#160;<td></td>
           </tr>
@@ -39,12 +39,15 @@
 		<tr>
 			<td style="width:80%;">
 				<p><?php $TPL_LANG->echoText('nominate.form.your.nomination'); ?>:&#160;<input type="text"
-				 id     = "nameField"
-				 onfocus= "disableButtons()"
-				 onkeyup= "disableButtons()"
-				 value  = "<?php echo $nomination->getName();?>"
-				 name   = "color_name"
-				 size   = "40" />
+				 id      = "nameField"
+				 onfocus = "disableButtons();"
+		     change  = "disableButtons();"
+				 onkeyup = "disableButtons();"
+				 onchange= "disableButtons();"
+		     onblur  = "disableButtons();"
+				 value   = "<?php echo $nomination->getName();?>"
+				 name    = "color_name"
+				 size    = "40" />
 				</p>
 			</td>
 			<td><p><input id="okButton"   type="submit" name="okBtn" value="<?php $TPL_LANG->echoText('nominate.form.submit')?>" /></p> </td>
