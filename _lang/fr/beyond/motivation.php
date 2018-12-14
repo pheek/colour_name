@@ -3,7 +3,7 @@
 
 <img src="<?php echo $TPL_PATHS->getClientRoot(); ?>/img/kleider.jpg" title="rose" alt="linge à la sécheuse" style="border: 0;"/>
 
-<p>Les roses, le magenta, le lilas et la framboise ont quelque chose en commun : ils sont utilisés comme des synonymes, ils sont souvent confus et parfois jetés dans le mauvais pot pour se généraliser. D'autre part il y a tellement de noms que souvent, il existe des zones du spectre de couleurs qui pourraient être appelées en français des points blancs sur la route chromatique, on peut lire ici: <a href='../nomination.php'>devenir créatif</a></p>
+<p>Les roses, le magenta, le lilas et la framboise ont quelque chose en commun : ils sont utilisés comme des synonymes, ils sont souvent confus et parfois jetés dans le mauvais pot pour se généraliser. D'autre part il y a tellement de noms que souvent, il existe des zones du spectre de couleurs qui pourraient être appelées en français des points blancs sur la route chromatique, on peut lire ici: <a href='<?php echo $TPL_PATHS->getClientRoot(); ?>/nominate'>devenir créatif</a></p>
 
 <p>Sur les pistes de skis de Valbella, en étudiant des dizaines de vestes de skis (par exemple pink, rose), j’ai pris la décision suivante : clarté et précision du classement des couleurs. <br/>
 
