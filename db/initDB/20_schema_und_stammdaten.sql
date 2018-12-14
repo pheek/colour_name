@@ -3,21 +3,11 @@
 -- 2018-12-01 phi@gress.ly
 --
 
-DROP   DATABASE   IF EXISTS `farbnamen` ;
-CREATE DATABASE             `farbnamen` ;
-
-ALTER  DATABASE             `farbnamen`
-       DEFAULT CHARACTER SET 'utf8'
-       DEFAULT COLLATE 'utf8_general_ci';
-USE                         `farbnamen` ;
-
--- create default user for development
--- CHANGE FOR REAL PRODUCTIVE SYSTEM!
-GRANT SELECT, INSERT ON `farbnamen`.* TO 'coloresV4'@'%' IDENTIFIED BY '123';
-
+USE               `farbnamen` ;
+SET NAMES         'utf8'      ;
+SET CHARACTER SET 'utf8'      ;
 
 -- --------------------------------------------------------
-
 CREATE TABLE `begriff` (
   `ID`      tinyint NOT NULL
 , `Kuerzel` char(6) NOT NULL COMMENT 'LCD, w, m, f_bl, etc.'
@@ -56,11 +46,6 @@ CREATE TABLE `farbnamen` (
 , PRIMARY KEY (`ID`)
 ) COMMENT='Namen der Farben, die in der Tabelle RGB auftreten';
 
-INSERT INTO `farbnamen`
-(`ID`, `Name`     ) VALUES
-(   1, 'cyan'     ),
-(   2, 'mandarine');
-
 
 -- --------------------------------------------------------
 
@@ -69,12 +54,6 @@ CREATE TABLE `ipV4` (
 , `v4Int` int NOT NULL COMMENT 'Int Wert 32-Bit unsigned. 0, falls per Tabelle eingespeist'
 , PRIMARY KEY(`ID`)
 ) COMMENT='IP Adresse zwecks späterer Identifikation der Regionen';
-
-INSERT INTO `ipV4`
-(`ID`, `v4Int`   ) VALUES
-(  1 , 1426219562),
-(  2 , 1414157270);
-
 
 -- --------------------------------------------------------
 
@@ -133,11 +112,6 @@ CREATE TABLE `rgb` (
 , `B`  tinyint unsigned NOT NULL
 , PRIMARY KEY (`ID`)
 ) COMMENT='R = red, G = green, B = blue';
-
-INSERT INTO `rgb`
-(`ID`,  `R`,  `G`,  `B`) VALUES
-(  1 ,  37 , 207 , 230 ),
-(  2 , 255 , 207 ,  56 );
 
 
 -- --------------------------------------------------------
@@ -339,11 +313,5 @@ CREATE TABLE `nomination` (
 , FOREIGN KEY (`F_medium`   ) REFERENCES `medium`    (`ID`)
 , FOREIGN KEY (`F_ipV4`     ) REFERENCES `ipV4`      (`ID`)
 ) COMMENT='Ein Wahl durch einen Nutzer (1:n Beziehung zu den Farben)';
-
-INSERT INTO `nomination`
-(`ID`, `F_rgb`, `F_farbnamen`, `F_netzhaut`, `F_medium`, `F_ipV4`, `Zeit`               , `F_sprache`)
-VALUES
-(   1,       1,             1,            2,          1,        1, '2000-01-01 00:00:00', 'de'       ),
-(   2,       2,             2,            2,          1,        2, '2000-01-01 00:00:00', 'de'       );
 
 -- --------------------------------------------------------
