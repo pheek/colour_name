@@ -1,7 +1,7 @@
 -- --------------------------------------
-USE                         `farbnamen` ;
-SET NAMES         'utf8';
-SET CHARACTER SET 'utf8';
+USE               `farbnamen` ;
+SET NAMES         'utf8'      ;
+SET CHARACTER SET 'utf8'      ;
 
 
 -- 2018-08-07 phi@gress.ly
@@ -13,7 +13,7 @@ SET CHARACTER SET 'utf8';
 -- generated anyway
 -- Otherwise a new row is generated.
 DELIMITER //
-CREATE PROCEDURE SP_insert_and_get_ID
+CREATE PROCEDURE sp_insert_and_get_ID
 ( IN  _tabellenName    TEXT
 , IN  _attributName    TEXT
 , IN  _attributWert    TEXT
@@ -23,7 +23,7 @@ CREATE PROCEDURE SP_insert_and_get_ID
 MODIFIES SQL DATA
 BEGIN
 	SET @tmpID    := -1; -- Any number which is not in the DB.
-	
+
 	SET @tmpQuery := CONCAT('SELECT `ID` INTO @tmpID',
 	                        ' FROM ' , _tabellenName,
 	                        ' WHERE ', _attributName, ' = "', _attributWert, '"', " LIMIT 1" );
@@ -53,16 +53,16 @@ DELIMITER ;
 DROP PROCEDURE IF EXISTS sp_insertNominaton;
 DELIMITER //
 CREATE PROCEDURE sp_insertNomination
-( IN  _colourName TEXT
-, IN  _ip         INTEGER
-, IN  _R          TINYINT unsigned
-, IN  _G          TINYINT unsigned
-, IN  _B          TINYINT unsigned
-, IN  _Netzhaut   INTEGER
-, IN  _Medium     INTEGER
-, IN  _When       DATETIME
-, IN  _Sprache    VARCHAR(3)
-, OUT _insertID   INTEGER
+( IN  _colourName   TEXT
+, IN  _ip           INTEGER
+, IN  _R            TINYINT unsigned
+, IN  _G            TINYINT unsigned
+, IN  _B            TINYINT unsigned
+, IN  _F_Netzhaut   INTEGER
+, IN  _F_Medium     INTEGER
+, IN  _When         DATETIME
+, IN  _F_Sprache    VARCHAR(3)
+, OUT _insertID     INTEGER
 )
 MODIFIES SQL DATA
 BEGIN
@@ -73,21 +73,21 @@ BEGIN
 --	SET @tmpNameID := -1;
 --	SET @tmpIpV4ID := -1;
 --	SET @tmpRGBID  := -1;
-		
-	CALL SP_insert_and_get_ID('farbnamen', 'name' , _colourName, TRUE, tmpNameID);
-	CALL SP_insert_and_get_ID('ipV4'     , 'v4Int', _ip        , TRUE, tmpIpV4ID);
+
+	CALL sp_insert_and_get_ID('farbnamen', 'name' , _colourName, TRUE, tmpNameID);
+	CALL sp_insert_and_get_ID('ipV4'     , 'v4Int', _ip        , TRUE, tmpIpV4ID);
 
 	SET tmpRGBID := -1;
 	SELECT `ID` INTO tmpRGBID FROM `rgb` WHERE `R` = _R AND `G` = _G AND `B` = _B;
 
 	if(-1 = tmpRGBID) THEN
 		INSERT INTO `rgb` (`R`, `G`, `B`) VALUES (_R, _G, _B);
- 		SET tmpRGBID = LAST_INSERT_ID();
+		SET tmpRGBID = LAST_INSERT_ID();
 	END IF;
 
 	INSERT INTO `nomination`
-	(`F_rgb`  , `F_farbnamen`, `F_netzhaut`, `F_medium`, `F_ipV4`  , `Zeit`, `F_sprache`) VALUES
-	(tmpRGBID, tmpNameID   , _Netzhaut   , _Medium   , tmpIpV4ID, _When, _Sprache );
+	 (`F_rgb` , `F_farbnamen`, `F_netzhaut`, `F_medium`, `F_ipV4` , `Zeit`, `F_sprache`) VALUES
+	 (tmpRGBID, tmpNameID    , _F_Netzhaut , _F_Medium , tmpIpV4ID, _When , _F_Sprache );
 
 	SET _insertID = LAST_INSERT_ID();
 END; //

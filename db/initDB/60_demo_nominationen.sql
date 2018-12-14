@@ -1,7 +1,7 @@
 -- --------------------------------------
-USE                         `farbnamen` ;
-SET NAMES         'utf8';
-SET CHARACTER SET 'utf8';
+USE               `farbnamen` ;
+SET NAMES         'utf8'      ;
+SET CHARACTER SET 'utf8'      ;
 
 CALL sp_insertNomination('rötlich'   , 1234567890, 140, 110, 110, 1, 1, '2018-12-14 08:44:55', 'de', @dummy);
 CALL sp_insertNomination('grünlich'  , 1244567890, 110, 140, 110, 1, 1, '2018-12-14 08:44:56', 'de', @dummy);

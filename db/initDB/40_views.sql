@@ -1,9 +1,11 @@
 -- --------------------------------------
-USE                         `farbnamen` ;
-SET NAMES         'utf8';
-SET CHARACTER SET 'utf8';
+USE               `farbnamen` ;
+SET NAMES         'utf8'      ;
+SET CHARACTER SET 'utf8'      ;
+
 
 -- --------------------------------------
+
 CREATE VIEW vw_nomination AS
 
 SELECT
