@@ -1,3 +1,7 @@
+-- ----------------------------
+-- Create database and default data for "www.colour.name".
+-- 2018-12-01 phi@gress.ly
+--
 -- --------------------------------------
 USE               `farbnamen` ;
 SET NAMES         'utf8'      ;
@@ -29,3 +33,5 @@ LEFT JOIN `medium`               ON `nomination`.`F_medium`    = `medium`   .`ID
 LEFT JOIN `begriff` AS begriffM  ON `medium`    .`F_begriff`   = `begriffM` .`ID` 
 LEFT JOIN `begriff` AS begriffN  ON `netzhaut`  .`F_begriff`   = `begriffN` .`ID` 
 ;
+
+-- --------------------------------------

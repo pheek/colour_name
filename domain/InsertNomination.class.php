@@ -17,6 +17,7 @@ class InsertNomination {
     // should be called form InsertNomination($nomination)
     // There, all the values have to be calculated first.
   private function insertNominationValues($rgbID, $nameID, $netzhautID, $mediumID, $ipV4ID, $sqlZeitString, $lang) {
+
      $sql = 'INSERT INTO nomination ' .
            '(F_rgb,             F_farbnamen,     F_netzhaut,       F_medium,         F_ipV4,       Zeit, F_sprache)' .
            ' VALUES ' .
