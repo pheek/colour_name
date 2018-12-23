@@ -8,9 +8,13 @@
 		<meta http-equiv="Content-Style-Type"  content="text/css"       />
 
 		<meta name="author"         content="philipp gressly freimann (phi @ http://colour.name)" />
-		<meta name="keywords"       content="<?php global $TPL_PAGE_TITLE; global $TPL_LANG; echo $TPL_PAGE_TITLE[$TPL_LANG->getLanguage()];?>, Farbnamen, Farbwahrnehmung, Wahrnehmung, Farben, Farbkreis, rosa, pink, lila, violett, rot, blau, grün, magenta, gelb, cyan, weiss, schwarz" />
-		<meta name="description"    content="Namen der Farben" />
-		<meta name="identifier-url" content="http://www.farbnamen.ch" />
+		<meta name="keywords"       content="<?php global $TPL_PAGE_TITLE; 
+global $TPL_LANG; 
+if(isset ($TPL_PAGE_TITLE[$TPL_LANG->getLanguage()])) 
+{echo $TPL_PAGE_TITLE[$TPL_LANG->getLanguage()] . ', ' ;}
+ ?><?php echo $TPL_LANG->getText('header.keywords'); ?>" />
+		<meta name="description"    content="<?php echo $TPL_LANG->getText('header.description');?>" />
+		<meta name="identifier-url" content="http://www.colour.name" />
 
 		<link href="<?php global $TPL_PATHS; echo $TPL_PATHS->getClientRoot(); ?>/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 		<link rel="stylesheet" type="text/css" href="<?php echo $TPL_PATHS->getClientRoot(); ?>/css/farbnamen.css" />

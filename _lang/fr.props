@@ -10,7 +10,8 @@ _FILE_/motivation=Motivation
 red=rouge
 green=vert
 blue=bleu
-
+header.description=Noms des coulers
+header.keywords=Noms et adjectifs de couleur, termes de couleurs, RAL, perception des couleurs, noms des couleurs, couleurs, rouge, vert, bleu, orange, magenta, noir, blac, jaune, cyan
 
 ######################### Statistik #######################
 # ROOT/statistik

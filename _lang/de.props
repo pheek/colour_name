@@ -10,8 +10,8 @@ _FILE_/motivation=Motivation
 red=rot
 green=grün
 blue=blau
-
-
+header.description=Namen der Farben
+header.keywords=Farbnamen, Farbwahrnehmung, Wahrnehmung, Farben, Farbkreis, rosa, pink, lila, violett, rot, blau, grün, magenta, gelb, cyan, weiss, schwarz
 ######################### Statistik #######################
 # ROOT/statistik
 _DIR_/statistik/=Statistiken
