@@ -1,0 +1,15 @@
+body {
+	background-image: url("../_layout/2018_bg/bg.png");
+/*	background-repeat: no-repeat; */
+/*	background-size: 100vw 100vh;*/
+/*	height: 100%;
+	width: 100%;*/
+	background-size: 100vw 100vh;
+	color: #ccc;
+}
+
+
+a:link, a:visited, a:active {
+	color: #aaf;
+}
+

@@ -3,14 +3,14 @@
 	global $TPL_LANG ;
 
 	global $TPL_CUSTOM_CSS;
-	$TPL_CUSTOM_CSS[] = "css/rahmen.bunt.css";
+	$TPL_CUSTOM_CSS[] = "_layout/css/rahmen.bunt.css";
   
   // check for "true" and not only for "it is there"!
 	global $HAS_TO_BE_GRAY;
 	if(/*isset($HAS_TO_BE_GRAY) && */ $HAS_TO_BE_GRAY) {
 		// if not loaded from submit.
 		// this must be done befor the include of the templator is performed
-		$TPL_CUSTOM_CSS[] = "css/rahmen.gray.css";
+		$TPL_CUSTOM_CSS[] = "_layout/css/rahmen.gray.css";
 	}
 
 	include $TPL_PATHS->getServerRoot() . '_layout/htmlheader.php'; ?>
@@ -21,7 +21,7 @@
     }
   ?> >
      
-	<table style="width: 100%; height: 100%;">
+	<table class='overalltable' style="width: 100%; height: 100%;">
 		<!-- head -->
 		<tr class="rahmenhoehe">
 			<td class="rahmenbreite rahmen_lt"></td>
